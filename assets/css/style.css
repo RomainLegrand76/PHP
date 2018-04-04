@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: darkkhaki;
+}
+ul{
+   display: flex;
+   justify-content: space-around;
+}
+
+li{
+	display: inline;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+    border-width: 50%
+}
+
+li:hover{
+    background-color: darksalmon;   
+}
+
+a{
+    color : white;
+}
+
+a:hover{
+    color: brown;
+}
+
+footer{
+    background-color: darkkhaki;
+    text-align: right;
+    padding-right: 2%;
+}
